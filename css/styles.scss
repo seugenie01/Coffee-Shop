@@ -49,7 +49,7 @@ header {
 }
 .row-content {
     padding: 50px 0;
-    border-bottom: 1px ridge;
+    border-bottom: 0px ridge;
     min-height: 200px;
 }
 
@@ -57,9 +57,14 @@ header {
     background-color: $color-mid;
 }
 
+.accordion{
+    margin: 20px;
+}
+
 .accordion-button {
-    background-color: #d3d3d3;
-  }
+    background-color:$color-primary;
+    color:white;
+}
 
 .carousel-caption {
     background-color: $color-black-transparent;
